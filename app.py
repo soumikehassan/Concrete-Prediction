@@ -78,6 +78,7 @@ st.markdown("""
     font-size: 16px;
     padding: 10px;
     line-height: 1.6;
+    margin-top: 20px;
 }
 .footer a {
     color: #4CAF50; /* Nice green color */
@@ -93,9 +94,8 @@ st.markdown("""
     Developed by <strong>Md Soumike Hassan</strong><br>
     📧 Contact: <a href='mailto:md.soumikehassan@gmail.com'>md.soumikehassan@gmail.com</a><br>
     🛠️ Project Repository: <a href='https://github.com/soumikehassan/Concrete-Prediction' target='_blank'>GitHub - Concrete Prediction</a><br><br>
-    
-    <strong>Authors and Co-authors:</strong><br>
-    Mehedi Hasan<sup>1</sup>, Md Soumike Hassan<sup>2</sup>, Kamrul Hasan<sup>3</sup>, 
-    Fazlul Hoque Tushar<sup>4</sup>, Majid Khan<sup>5</sup><br><br>
+
+    <strong>Contributors:</strong><br>
+    Mehedi Hasan<sup>1</sup>, Md Soumike Hassan<sup>2</sup>, Kamrul Hasan<sup>3</sup>, Fazlul Hoque Tushar<sup>4</sup>, Majid Khan<sup>5</sup>
 </div>
 """, unsafe_allow_html=True)
