@@ -70,10 +70,30 @@ if st.button("🔍 Predict"):
 st.markdown("<hr>", unsafe_allow_html=True)
 
 st.markdown("""
-<p style='text-align: center;'>
+<style>
+.footer {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 1.6;
+}
+.footer a {
+    color: #4CAF50; /* Nice green color */
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer a:hover {
+    color: #45a049; /* Slightly darker green on hover */
+}
+</style>
+
+<div class="footer">
     Developed by <strong>Md Soumike Hassan</strong><br>
-    Contact: <a href='mailto:md.soumikehassan@gmail.com'>md.soumikehassan@gmail.com</a><br><br>
+    📧 Contact: <a href='mailto:md.soumikehassan@gmail.com'>md.soumikehassan@gmail.com</a><br>
+    🛠️ Project Repository: <a href='https://github.com/soumikehassan/Concrete-Prediction' target='_blank'>GitHub - Concrete Prediction</a><br><br>
+    
     <strong>Authors and Co-authors:</strong><br>
     Mehedi Hasan<sup>1</sup>, Md Soumike Hassan<sup>2</sup>, Kamrul Hasan<sup>3</sup>, Fazlul Hoque Tushar<sup>4</sup>, Majid Khan<sup>5</sup>
-</p>
+</div>
 """, unsafe_allow_html=True)
+
