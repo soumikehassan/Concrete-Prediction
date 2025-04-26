@@ -67,8 +67,10 @@ if st.button("🔍 Predict"):
         st.error("Prediction failed. Please check the input or model.")
 
 # --- Footer ---
+# Add a horizontal rule
 st.markdown("<hr>", unsafe_allow_html=True)
 
+# Add the footer with proper styling and content
 st.markdown("""
 <style>
 .footer {
@@ -91,13 +93,9 @@ st.markdown("""
     Developed by <strong>Md Soumike Hassan</strong><br>
     📧 Contact: <a href='mailto:md.soumikehassan@gmail.com'>md.soumikehassan@gmail.com</a><br>
     🛠️ Project Repository: <a href='https://github.com/soumikehassan/Concrete-Prediction' target='_blank'>GitHub - Concrete Prediction</a><br><br>
-
+    
     <strong>Authors and Co-authors:</strong><br>
     Mehedi Hasan<sup>1</sup>, Md Soumike Hassan<sup>2</sup>, Kamrul Hasan<sup>3</sup>, 
     Fazlul Hoque Tushar<sup>4</sup>, Majid Khan<sup>5</sup><br><br>
-
-    <a href='https://github.com/soumikehassan/Concrete-Prediction' target='_blank'>
-        🔗 View Full Project on GitHub
-    </a>
 </div>
 """, unsafe_allow_html=True)
