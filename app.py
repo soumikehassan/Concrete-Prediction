@@ -32,18 +32,18 @@ col1, col2, col3 = st.columns(3)
 with col1:
     BNHF = st.number_input("BNHF (%)", value=0.0)
     Fiber = st.number_input("Fiber (kg/m3)", value=0.0)
-    Fiber_length = st.number_input("Fiber length (mm)", value=0.0)
+    Fiber_length = st.number_input("Fiber Length (mm)", value=0.0)
 
 with col2:
-    wc = st.number_input("w/c", value=0.0)
+    wc = st.number_input("W/C", value=0.0)
     Cement = st.number_input("Cement (kg/m3)", value=0.0)
-    Fine_agg = st.number_input("Fine aggregate (kg/m3)", value=0.0)
+    Fine_agg = st.number_input("Fine Aggregate (kg/m3)", value=0.0)
 
 with col3:
-    Coarse_agg = st.number_input("Coarse aggregate (kg/m3)", value=0.0)
+    Coarse_agg = st.number_input("Coarse Aggregate (kg/m3)", value=0.0)
     Water = st.number_input("Water (kg/m3)", value=0.0)
     if model_choice in ["STS", "CS"]:
-        Curing_time = st.number_input("Curing time (days)", value=0.0)
+        Curing_time = st.number_input("Curing Time (days)", value=0.0)
     else:
         Curing_time = None
 
