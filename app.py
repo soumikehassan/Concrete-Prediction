@@ -97,7 +97,7 @@ st.markdown("""
 
 </div>
 <p style='text-align: center;'>
-    <strong>Authors and Co-authors:</strong><br>
+    <strong>Contributors</strong><br>
     Mehedi Hasan<sup>1</sup>, Md Soumike Hassan<sup>2</sup>, Kamrul Hasan<sup>3</sup>, Fazlul Hoque Tushar<sup>4</sup>, Majid Khan<sup>5</sup>
 </p>            
 """, unsafe_allow_html=True)
