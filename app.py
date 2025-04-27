@@ -98,6 +98,6 @@ st.markdown("""
 </div>
 <p style='text-align: center;'>
     <strong>Contributors</strong><br>
-    Mehedi Hasan<sup>1</sup>, Md Soumike Hassan<sup>2</sup>, Kamrul Hasan<sup>3</sup>, Fazlul Hoque Tushar<sup>4</sup>, Majid Khan<sup>5</sup>
+    Mehedi Hasan, Md Soumike Hassan, Kamrul Hasan, Fazlul Hoque Tushar, Majid Khan, Ramadhansya Putra Jaya
 </p>            
 """, unsafe_allow_html=True)
