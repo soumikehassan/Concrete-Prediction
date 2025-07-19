@@ -14,9 +14,9 @@ def load_model(path):
         return None
 
 # --- Load models ---
-model_sts = load_model("D:/Concrete Prediction/Web App_2/xgb_STS.pkl")
-model_cs = load_model("D:/Concrete Prediction/Web App_2/CatBoost_CS.pkl")
-model_slump = load_model("D:/Concrete Prediction/Web App_2/CatBoost_Slump.pkl")
+model_sts = load_model("xgb_STS.pkl")
+model_cs = load_model("CatBoost_CS.pkl")
+model_slump = load_model("CatBoost_Slump.pkl")
 
 # --- App title ---
 st.title("🧱 Concrete Property Predictor")
