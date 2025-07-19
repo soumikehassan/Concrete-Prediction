@@ -15,7 +15,7 @@ def load_model(path):
 
 # --- Load models ---
 model_sts = load_model("xgb_STS.pkl")
-model_cs = load_model("CatBoost_CS.pkl")
+model_cs = load_model("Catboost_CS.pkl")
 model_slump = load_model("CatBoost_Slump.pkl")
 
 # --- App title ---
